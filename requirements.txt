@@ -1,9 +1,4 @@
-# Core (required)
-dnspython>=2.4
-requests>=2.31
-urllib3>=2.0
-ipwhois>=1.2
-
-# Optional (features degrade gracefully if missing)
-shodan>=1.30    # Shodan hostname/ssl/favicon pivots (--shodan-key / SHODAN_API_KEY)
-mmh3>=4.0       # Shodan-compatible favicon hashing
+dnspython
+requests
+shodan
+ipwhois
